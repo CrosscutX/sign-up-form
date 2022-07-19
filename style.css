@@ -8,6 +8,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 p{
@@ -21,8 +22,33 @@ h1{
 .left-section{
     background-color: black;
     height: 100%;
-    width: 500px;
+    width: 700px;
+    background-image: url(img/ryu-chun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.left-section p{
+    color: black;
+}
+
+.title-container{
+    margin-top: 200px;
+    height: 150px;
+    width: 100%;
+    opacity: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .right-section{
     background-color: white;
