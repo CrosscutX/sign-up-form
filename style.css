@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.left-section{
+    background-color: black;
+    height: 100%;
+    width: 500px;
+}
+
+.right-section{
+    background-color: white;
+}
+
