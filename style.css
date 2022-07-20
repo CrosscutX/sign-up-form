@@ -59,6 +59,9 @@ h1{
     font-size: 3rem;
 }
 
+.title-container img{
+    height: 90%;  
+}
 
 .right-section{
     background-color: white;
