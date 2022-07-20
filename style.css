@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Urban Heros";
+    src: url(fonts/Urban\ Heroes.ttf);
+}
+
 body{
     height: 100vh;
     display: flex;
@@ -41,12 +46,17 @@ h1{
     margin-top: 200px;
     height: 150px;
     width: 100%;
-    opacity: 50%;
-    background-color: black;
+    background: rgba(0,0,0,0.5);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.title-container h1{
+    opacity: 1;
+    font-family: "Urban Heros";
+    font-size: 3rem;
 }
 
 
